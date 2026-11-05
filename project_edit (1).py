@@ -1,6 +1,6 @@
 import mysql.connector as m1
 try:
-    con=m1.connect(host='localhost',username='root',password='janhavi29@',database='project')
+    con=m1.connect(host='localhost',username='root',password='your_password',database='project')
     cur= con.cursor()
     print("*"*20)
     print("TRINITY MULTI SPECIALITY HOSPITAL")
